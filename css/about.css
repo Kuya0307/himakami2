@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* CSS Document */
+#about .title{
+    text-align: center;
+}
+.contents{
+    float:right;
+}
