@@ -1,8 +1,124 @@
 @charset "UTF-8";
 /* CSS Document */
+div{
+    font-size: 120%;
+}
 #about .title{
     text-align: center;
 }
-.contents{
-    float:right;
+#box{
+    display: grid;
+    grid-template-rows: 2%;
+    grid-template-columns:30% 30%;
+}
+#box div{
+    border-bottom: 1px solid #000000;
+}
+#box div:nth-child(2n+13) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+#box #img{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:1;
+    grid-row-end:6;
+}
+#box #img #himekami{
+    width:31rem;
+    height:25rem;
+}
+#box #iwate{
+    width: 25rem;
+    height: 30rem;
+}
+#box #enkaku{
+    width: 55rem;
+    height: 30rem;
+}
+#about iframe{
+    width: 50rem;
+    margin-left: 65%;
+    margin-bottom: 5rem;
+}
+/* 従業員紹介 */
+#about .emp_title{
+    text-align: center;
+}
+#about .enp_box{
+    float: left;
+    border: #000000 solid 1px;
+    width: 24%;
+    background-color: white;
+}
+#about #emp_box1{
+    margin: 0 0 2rem 2rem;
+}
+#about #emp_box2{
+    margin: 0 10% 3% 10%;
+}
+#about #emp_box3{
+    margin: 0 3% 3% 0;
+}
+#about .enp_box p{
+    text-align: center;
+}
+#about .enp_box img{
+    margin: 5% 15% 0 15%;
+    width: 70%;
+    height: 70%;
+}
+#about .con_title{
+    text-align: center;
+}
+#about #con_tel_box{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    border: #707070 solid 1px;
+    width: 50rem;
+    margin-left: 18%;
+}
+#con_tel_box p{
+    font-size: 80%;
+}
+#con_btn{
+    width: 13rem;
+    height: 4rem;
+    background-color: white;
+    border: #707070 1px solid;
+    font-size: 1.5rem;
+    color: #707070;
+}
+#about #form_box{
+    border: #707070 solid 1px;
+    background-color: white;
+}
+#about #tel_box{
+    display: grid;
+    border: #707070 solid 1px;
+    background-color: white;
+}
+.form_txt{
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 25%;
+}
+.form_txt #mail{
+    width: 3rem;
+    height: 3rem;
+}
+.tel_txt{
+    margin-left: 3rem;
+}
+.tel_txt #tel{
+    float: right;
+    font-size: 100%;
+   font-weight: bold;
+   margin-right: 3rem;
+}
+.tel_txt #time{
+    font-size: 100%;
+}
+.tel_txt #ant{
+    font-size: 40%;
 }
