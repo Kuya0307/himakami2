@@ -1,1 +1,17 @@
 @charset "utf-8";
+/* #index {
+    background-color: aliceblue;
+} */
+
+/* .main {
+    width: 1920px;
+    height: 1080px;
+    background-image: url(../images/bg/background.png);
+    /* background-repeat: repeat-y,round; */
+    /* background-size: cover;
+} */
+
+#index .main {
+    margin-top: 94px;
+}
+

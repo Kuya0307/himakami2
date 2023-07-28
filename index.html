@@ -3,53 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap">
     <link rel="stylesheet" href="css/destyle.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
     <title>ホーム</title>
 </head>
 <body id="index">
-    <header id="header">
-        <div>
+    <div class="index_header">
+        
+        <header id="header">
             <div class="header_upper_side">
-                <img src="#" alt="logo">
-                <a href="#">姫神設備工業</a>
-                <a href="tel:#">☎019-661-8356</a>
-                <a href="#">お問い合わせ</a>
+                <div class="logo"><img src="./images/common/himekami_logo.png" alt="logo"></div>
+                <div class="upper_left">
+                    <a class="company_name" href="#">姫神設備工業</a>
+                </div>
+                <div class="upper_right">
+                    <a class="tell" href="tel:#">☎019-661-8356</a>
+                    <a class="inquiry" href="#">お問い合わせ</a>
+                </div>
             </div>
-            <div class="header_under_side">
-                <nav>           
-                    <ul>
-                        <li><a href="#">ホーム</a></li>
-                        <li>
-                            <a href="#">会社概要</a>
-                            <ul>
-                                <li><a href="">社員紹介</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">事業内容</a>
-                            <ul>
-                                <li><a href="">実績紹介</a></li>
-                                <li><a href="">施工例</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">施行の流れ</a></li>
-                        <li><a href="#">ニュース</a></li>
-                        <li>
-                            <a href="#">採用情報</a>
-                            <ul>
-                                <li><a href="">採用お問い合わせ</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+            
+            <nav class="header_under_side">
+                <ul class="menu">
+                    <li class="main_list"><a href="#">ホーム</a></li>
+                    <li class="main_list">
+                        <a href="#">会社概要</a>
+                        <ul>
+                            <li class="sub_list"><a href="#">社員紹介</a></li>
+                        </ul>
+                    </li>
+                    <li class="main_list">
+                        <a href="#">事業内容</a>
+                        <ul>
+                            <li class="sub_list"><a href="#">実績紹介</a></li>
+                            <li class="sub_list"><a href="#">施工例</a></li>
+                        </ul>
+                    </li>
+                    <li class="main_list"><a href="#">施行の流れ</a></li>
+                    <li class="main_list"><a href="#">ニュース</a></li>
+                    <li class="main_list">
+                        <a href="#">採用情報</a>
+                        <ul>
+                            <li class="sub_list"><a href="#">採用お問い合わせ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="header_images">
+            <img src="./images/img/index/index_header.png">
         </div>
     </header>
     
+    </div>
+
     <!-- 本文 -->
-    <div>
-        <section>
+    <div class="main">
+        <section class="company_profile">
             <div>
                 <h1>会社概要</h1>
                 <p>47年間に及び積み重ねた技術・サービス。</p>
@@ -69,9 +82,9 @@
                 <img src="#" alt="">
             </div>
         </section>
-        <section>
+        <section class="business_content">
             <h1>事業内容</h1>
-            <section>
+            <section class="construction_example">
                 <h2>-施工例</h2>
                 <div>
                     <img src="#" alt="">
@@ -84,7 +97,7 @@
                 </div>
                 <a href="#">詳しくはこちら</a>
             </section>
-            <section>
+            <section class="actual_introduction">
                 <h2>-実績紹介</h2>
                 <div>
                     <img src="#" alt="">
@@ -95,7 +108,7 @@
                 <a href="#">詳しくはこちら</a>
             </section>
         </section>
-        <section>
+        <section class="recruitment_info">
             <h1>採用情報</h1>
             <div>
                 <h2>君を求めていた！</h2>
@@ -107,7 +120,7 @@
                 <a href="#">採用情報 ></a>
             </div>
         </section>
-        <section>
+        <section class="news">
             <h1>ニュース</h1>
             <table>
                 <tr>
@@ -138,7 +151,7 @@
             </table>
             <a href="#">ニュース一覧へ→</a>
         </section>
-        <section>
+        <section class="access">
             <h1>アクセス</h1>
             <div>
                 <img src="#" alt="">
@@ -151,7 +164,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.6312057907767!2d141.14992329999998!3d39.7479343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f85743c88fa028f%3A0xc6ac82da167a6f8d!2z44CSMDIwLTAxMDIg5bKp5omL55yM55ub5bKh5biC5LiK55Sw5bKp6ISH77yR4oiS77yS77yX!5e0!3m2!1sja!2sjp!4v1689303037300!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
-        <section>
+        <section class="inquiry">
             <h1>お問い合わせ</h1>
             <div>
                 <div>
