@@ -3,60 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap"> -->
+    <script src="https://kit.fontawesome.com/dfc8ec83a1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/destyle.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
     <title>ホーム</title>
 </head>
 <body id="index">
-    <header id="header">
-        <div class="header_upper_side">
-            <img src="#" alt="logo">
-            <a href="#">姫神設備工業</a>
-            <a href="tel:#">☎019-661-8356</a>
-            <a href="#">お問い合わせ</a>
+    <div class="index_header">
+        
+        <header id="header">
+            <div class="header_upper_side">
+                <div class="logo"><img src="./images/common/himekami_logo.png" alt="logo"></div>
+                <div class="upper_left">
+                    <a class="company_name" href="#">姫神設備工業</a>
+                </div>
+                <div class="upper_right">
+                    <a class="tell" href="tel:#">☎019-661-8356</a>
+                    <a class="inquiry_button" href="#">お問い合わせ</a>
+                </div>
+            </div>
+            
+            <nav class="header_under_side">
+                <ul class="menu">
+                    <li class="main_list"><a href="index.html">ホーム</a></li>
+                    <li class="main_list">
+                        <a href="#">会社概要</a>
+                        <ul>
+                            <li class="sub_list"><a href="#">社員紹介</a></li>
+                        </ul>
+                    </li>
+                    <li class="main_list">
+                        <a href="#">事業内容</a>
+                        <ul>
+                            <li class="sub_list"><a href="#">実績紹介</a></li>
+                            <li class="sub_list"><a href="#">施工例</a></li>
+                        </ul>
+                    </li>
+                    <li class="main_list"><a href="#">施行の流れ</a></li>
+                    <li class="main_list"><a href="#">ニュース</a></li>
+                    <li class="main_list">
+                        <a href="#">採用情報</a>
+                        <ul>
+                            <li class="sub_list"><a href="#">採用お問い合わせ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="header_images">
+            <img src="./images/img/index/index_header.png">
         </div>
-
-        <div class="header_under_side">          
-            <ul class="menu">
-                <li class="menu__single">
-                    <a class="init-bottom" href="index.html">ホーム</a>
-                </li>
-                <li class="menu__single">
-                    <a class="init-bottom" href="#">会社概要</a>
-                    <ul class="menu__second-level">
-                        <li><a href="#">社員紹介</a></li>
-                    </ul>
-                </li>
-                <li class="menu__single">
-                    <a class="init-bottom" href="project.html">事業内容</a>
-                    <ul class="menu__second-level">
-                        <li><a href="project.html#results">実績紹介</a></li>
-                        <li><a href="#">施工例</a></li>
-                    </ul>
-                </li>
-                <li class="menu__single">
-                    <a class="init-bottom" href="#">施行の流れ</a>
-                </li>
-                <li class="menu__single">
-                    <a class="init-bottom" href="#">ニュース</a>
-                </li>
-                <li class="menu__single">
-                    <a class="init-bottom" href="#">採用情報</a>
-                    <ul class="menu__second-level">
-                        <li><a href="#">採用お問い合わせ</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </header>
+        </header>
+    
+    </div>
 
     <!-- 本文 -->
-    <div>
-        <section>
+    <div class="main">
+        <section class="company_profile">
             <div>
                 <h1>会社概要</h1>
-                <p>47年間に及び積み重ねた技術・サービス。</p>
-                <p>
+                <p class="chachikopi">47年間に及び積み重ねた技術・サービス。</p>
+                <p class="introduction">
                     ここには文章が入ります。ここには文章が入ります。ここには文章が入<br>
                     ここには文章が入ります。ここには文章が入ります。ここには文章が入<br>
                     ここには文章が入ります。ここには文章が入ります。ここには文章が入<br>
@@ -66,53 +77,101 @@
                     ここには文章が入ります。ここには文章が入ります。ここには文章が入<br>
                     ここには文章が入ります。ここには文章が入ります。ここには文章が入
                 </p>
-                <a href="#">詳しくはこちら</a>
+                <a class="btnlinestretches" href="#">詳しくはこちら</a>
             </div>
-            <div>
-                <img src="#" alt="">
+            <div class="picture">
+                <img class="img1" src="./images/img/index/water.jpg" alt="">
+                <img class="img2" src="./images/img/index/mori.png" alt="">
+                <div class="box"></div>
             </div>
         </section>
-        <section>
+        <section class="business_content">
             <h1>事業内容</h1>
-            <section>
+            <section class="construction_example">
                 <h2>-施工例</h2>
-                <div>
-                    <img src="#" alt="">
-                    <img src="#" alt="">
-                    <img src="#" alt="">
+                <div class="upper_side">
+                    <img class="left" src="./images/img/index/採水設備工事.png" alt="">
+                    <img class="center" src="./images/img/index/水道設備工事.png" alt="">
+                    <img class="right" src="./images/img/index/管工事.png" alt="">
                 </div>
-                <div>
-                    <img src="#" alt="">
-                    <img src="#" alt="">
+                <div class="lower_side">
+                    <img class="left" src="./images/img/index/土木工事.png" alt="">
+                    <img class="right" src="./images/img/index/とび・土木工事.png" alt="">
                 </div>
-                <a href="#">詳しくはこちら</a>
+                <div class="button">
+                    <a href="#">詳しくはこちら</a>
+                </div>
             </section>
-            <section>
+            <section class="actual_introduction">
                 <h2>-実績紹介</h2>
-                <div>
-                    <img src="#" alt="">
-                    <img src="#" alt="">
-                    <img src="#" alt="">
-                    <img src="#" alt="">
+                <div class="flex">
+                    <div class="left1">
+                        <img src="./images/img/index/実績紹介1.png" alt="">
+                        <p>葛巻</p>
+                    </div>
+                    <div class="left2">
+                        <img src="./images/img/index/実績紹介2.png" alt="">
+                        <p>葛巻</p>
+                    </div>
+                    <div class="right1">
+                        <img src="./images/img/index/実績紹介3.png" alt="">
+                        <p>葛巻</p>
+                    </div>
+                    <div class="right2">
+                        <img src="./images/img/index/実績紹介4.png" alt="">
+                        <p>葛巻</p>
+                    </div>
                 </div>
-                <a href="#">詳しくはこちら</a>
+                <div class="button">
+                    <a href="#">詳しくはこちら</a>
+                </div>
             </section>
         </section>
-        <section>
+        <section class="recruitment_info">
             <h1>採用情報</h1>
-            <div>
-                <h2>君を求めていた！</h2>
-                <p>
-                    姫神設備工業では一緒に働く仲間を<br>
-                    募集しています。<br>
-                    私たちと一緒に働きませんか？
-                </p>
-                <a href="#">採用情報 ></a>
+            <div class="container">
+                <div class="item">
+                    <h2>君を求めていた！</h2>
+                    <p>
+                        姫神設備工業では一緒に働く仲間を<br>
+                        募集しています。<br>
+                        私たちと一緒に働きませんか？
+                    </p>
+                    <a href="#">採用情報 ></a>
+                </div>
+                <img src="./images/img/index/recruitment_info.png" alt="">
             </div>
         </section>
-        <section>
+        <section class="news">
             <h1>ニュース</h1>
-            <table>
+            <div class="container">
+                <div class="item">
+                    <p>0000/00/00</p>
+                    <p>ジャンル</p>
+                    <a>タイトル</a>
+                </div>
+                <div class="item">
+                    <p>0000/00/00</p>
+                    <p>ジャンル</p>
+                    <a>タイトル</a>
+                </div>
+                <div class="item">
+                    <p>0000/00/00</p>
+                    <p>ジャンル</p>
+                    <a>タイトル</a>
+                </div>
+                <div class="item">
+                    <p>0000/00/00</p>
+                    <p>ジャンル</p>
+                    <a>タイトル</a>
+                </div>
+                <div class="item">
+                    <p>0000/00/00</p>
+                    <p>ジャンル</p>
+                    <a>タイトル</a>
+                </div>
+            </div>
+            <!-- <table>
                 <tr>
                     <td>日付</td>
                     <td>ジャンル</td>
@@ -138,45 +197,92 @@
                     <td>ジャンル</td>
                     <td>title</td>
                 </tr>
-            </table>
-            <a href="#">ニュース一覧へ→</a>
+            </table> -->
+            <div class="button">
+                <a href="#">ニュース一覧へ→</a>
+            </div>
         </section>
-        <section>
+        <section class="access">
             <h1>アクセス</h1>
-            <div>
-                <img src="#" alt="">
-                <p>住所:〒020-0102</p>
-                <p>岩手県盛岡市上田字岩脇1番地27</p>
-                <p>最寄駅：厨川駅(IGR)</p>
-                <p>最寄バス停：東黒石野バス停</p>
-            </div>
-            <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.6312057907767!2d141.14992329999998!3d39.7479343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f85743c88fa028f%3A0xc6ac82da167a6f8d!2z44CSMDIwLTAxMDIg5bKp5omL55yM55ub5bKh5biC5LiK55Sw5bKp6ISH77yR4oiS77yS77yX!5e0!3m2!1sja!2sjp!4v1689303037300!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="container">
+                <div class="information">
+                    <img src="./images/img/index/access.png" alt="">
+                    <p>住所:〒020-0102</p>
+                    <p>岩手県盛岡市上田字岩脇1番地27</p>
+                    <p>最寄駅：厨川駅(IGR)</p>
+                    <p>最寄バス停：東黒石野バス停</p>
+                </div>
+                <div>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.6312057907767!2d141.14992329999998!3d39.7479343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f85743c88fa028f%3A0xc6ac82da167a6f8d!2z44CSMDIwLTAxMDIg5bKp5omL55yM55ub5bKh5biC5LiK55Sw5bKp6ISH77yR4oiS77yS77yX!5e0!3m2!1sja!2sjp!4v1689303037300!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </section>
-        <section>
+        <section class="inquiry">
             <h1>お問い合わせ</h1>
-            <div>
-                <div>
-                    <p>フォームから問い合わせる</p>
-                    <div>
-                        <i></i>
+            <div class="container">
+                <div class="form_link">
+                    <p class="title">フォームから問い合わせる</p>
+                    <div class="item">
+                        <p><i class="fa-solid fa-envelope mail_icon"></i></p>
                         <a href="">お問い合わせ</a>
                     </div>
                 </div>
-                <div>
+                <div class="information">
                     <p>電話番号</p>
                     <a href="tel:#">☎019-661-8356</a>
-                    <p>8:00~17:00</p>
                     <p>営業時間</p>
-                    <p><small>※第二・第四土曜日、日曜日、GW、お盆、年末年始を除く</small></p>
+                    <p>8:00～17:00</p>
+                    <p>※第二・第四土曜日、日曜日、GW、お盆、年末年始を除く</p>
                 </div>
             </div>
         </section>
     </div>
 
-    <footer>
+    <footer id="footer">
+        <div class="container">
+            <div class="information">
+                <div>
+                    <img class="logo" src="./images/common/himekami_logo.png" alt="">
+                </div>
+                <div class="item">
+                    <p>株式会社</p>
+                    <p>姫神設備工業</p>
 
+                    <p>〒020-0102 岩手県盛岡市上田字岩脇1番地27</p>
+                    <a href="#">☎019-661-8356</a>
+                    <p>FAX 019-661-8329</p>
+                    <div class="sns_icon">
+                        <img src="./images/common/twitter.png" alt="">
+                        <img src="./images/common/instagram.png" alt="">
+                        <img src="./images/common/facebook.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="sitemap_1">
+                <ul>
+                    <li><a>ホーム</a></li>
+                    <li><a>会社概要</a></li>
+                    <li><a>事業内容</a></li>
+                    <li><a>・実績紹介</a></li>
+                    <li><a>・施工例</a></li>
+                    <li><a>施行の流れ</a></li>
+                </ul>
+            </div>
+            <div class="sitemap_2">
+                <ul>
+                    <li><a>ニュース</a></li>
+                    <li><a>採用情報</a></li>
+                    <li><a>採用お問い合わせ</a></li>
+                    <li><a>お問い合わせ</a></li>
+                    <li><a>プライバシーポリシー</a></li>
+                    <li><a>サイトポリシー</a></li>
+                </ul>
+            </div>
+            <div class="company_icon">
+                <a><img src="./images/common/hasegawa_logo.png" alt=""></a>
+            </div>
+        </div>
+        <div class="copy"><p>©himekamisetubikougyou</p></div>
     </footer>
     <script>
         var parent = document.querySelectorAll(".has-sub");
