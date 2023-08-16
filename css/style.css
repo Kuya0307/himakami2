@@ -283,3 +283,30 @@ body{
     text-align: center;
     padding-bottom: 23px;
 }
+
+/* --パンくずリスト-- */
+#breadcrumb {
+    margin-top: 24px;
+    margin-left: 39px;
+    list-style: none;
+}
+
+#breadcrumb li {
+  display: inline;/*横に並ぶように*/
+}
+
+#breadcrumb li:after {
+  /* >を表示*/
+  content: '>';
+  color: var(--color_body);
+}
+
+#breadcrumb li:last-child:after {
+  content: '';
+}
+
+#breadcrumb li a {
+  color: var(--color_body);
+}
+
+/* --パンくずリストend-- */
