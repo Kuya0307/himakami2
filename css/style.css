@@ -25,7 +25,7 @@
     /* 25 */
     --font_size_p: 1rem;
 
-    --font_family_HG: "HG明朝E", serif;
+    --font_family_HG: " ", serif;
 
 }
 
@@ -115,7 +115,7 @@ body{
     padding-right: 15px;
 }
 
-#header .inquiry {
+#header .inquiry_button {
     width: 283.44px;
     height: 66.66px;
     color: var(--color_bg);
@@ -188,3 +188,98 @@ body{
     width: 100%;
 }
 /* indexのみ end */
+
+/* --footer-- */
+#footer {
+    color: var(--color_title);
+    padding-left: 58px;
+}
+
+#footer .container {
+    display: flex;
+    padding-bottom: 72px;
+}
+
+#footer .container .information {
+    display: flex;
+}
+
+#footer .logo {
+    width: 86px;
+    height: 86px;
+    margin-top: 14px;
+}
+
+#footer .container .information .item p:nth-child(1),
+#footer .container .information .item p:nth-child(2) {
+    font-family: var(--font_family_HG);
+}
+
+#footer .container .information .item p:nth-child(1) {
+    font-size: 29px;
+}
+
+#footer .container .information .item p:nth-child(2) {
+    font-size: 71px;
+    padding-bottom: 9.1px;
+}
+
+#footer .container .information .item a {
+    font-size: 39px;
+    font-weight: bold;
+}
+
+#footer .container .information .item p:nth-child(3),
+#footer .container .information .item p:nth-child(5) {
+    font-size: 30px;
+}
+
+#footer .container .information .item .sns_icon {
+    display: flex;
+    padding-left: 7px;
+}
+
+#footer .container .information .item .sns_icon img {
+    width: 59px;
+    height: 59px;
+}
+
+#footer .container .information .item .sns_icon img:nth-child(2) {
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+#footer .container .sitemap_1 {
+    padding-top: 69px;
+    padding-left: 84px;
+}
+
+#footer .container .sitemap_1 li:nth-child(4),
+#footer .container .sitemap_1 li:nth-child(5) {
+    padding-left: 26px;
+}
+
+#footer .container .sitemap_2 {
+    padding-top: 69px;
+    padding-left: 50px;
+    padding-right: 94px;
+}
+
+#footer .container .sitemap_2 li:nth-child(3) {
+    padding-left: 25px;
+}
+
+#footer .container .company_icon {
+    padding-top: 103px;
+}
+
+#footer .container .company_icon img {
+    width: 398px;
+    height: 127px;
+    border: 1px solid var(--color_body);
+}
+
+#footer .copy {
+    text-align: center;
+    padding-bottom: 23px;
+}
