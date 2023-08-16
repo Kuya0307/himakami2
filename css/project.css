@@ -93,7 +93,7 @@ body{
 
 #project .achievements .container .item img {
     width: 435px;
-    /* height: 320px; */
+    height: 320px;
     margin-top: 55px;
     margin-bottom: 4px;
     margin-left: 51.5px;
@@ -140,7 +140,7 @@ body{
 }
 
 #project .construction_example div img {
-    border: 1px solid var(--color_body);   
+    border: 1px solid var(--color_body);
 }
 
 #project .construction_example .upper_side {
