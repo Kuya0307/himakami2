@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+/* 共通部分 */
+/* ---変数--- */
+:root {
+    --color_title: #013B58;
+    --color_bg: #FFFFFF;
+    --color_blue_light1: #B8E8F9;
+    --color_blue_light2: #EAF8FD;
+    --color_drop: #4CBDE9;
+    --color_button: #FEEAB3;
+    --color_purple: #D8D3FA;
+    --color_logo: #008409;
+    --color_body: #707070;
+    /* 70 */
+    --font_size_1: 2.8rem;
+    /* 60 */
+    --font_size_2: 2.4rem;
+    /* 50 */
+    --font_size_3: 2rem;
+    /* 40 */
+    --font_size_4: 1.6rem;
+    /* 35 */
+    --font_size_5: 1.4rem;
+    /* 25 */
+    --font_size_p: 1rem;
+
+    --font_family_HG: " ", serif;
+
+}
+
+/* --------- */
+html {
+    font-size: 25px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+h1{
+    font-size: 2.8rem;
+}
+h2{
+    font-size: 2.4rem;
+}
+h3{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.6rem;
+}
+h5{
+    font-size: 1.4rem;
+}
+p{
+    font-size: 1rem;
+}
+body{
+    color: #707070;
+}
+
+/* --共通部分ここまで-- */
+
+#results_detail .detail_main h1 {
+    padding-top: 7px;
+    padding-bottom: 15px;
+    padding-left: 85px;
+}
+
+#results_detail .detail_main .img_item {
+    display: flex;
+    margin-left: 244px;
+}
+
+#results_detail .detail_main .img_item .img_left img {
+    width: 948px;
+    height: 595px;
+    margin-right: 47px;
+    object-fit: cover;
+}
+
+#results_detail .detail_main .img_item .img_right img {
+    display: block;
+    width: 437px;
+    height: 276px;
+    object-fit: cover;
+}
+
+#results_detail .detail_main .img_item .img_right img:nth-child(1) {
+    margin-bottom: 43px;
+}
+
+#results_detail .detail_sub1 {
+    margin-bottom: 89.5px;
+}
+
+#results_detail .detail_sub1 h1 {
+    font-size: var(--font_size_2);
+    padding-top: 55px;
+    padding-bottom: 5px;
+    padding-left: 145.3px;
+}
+
+#results_detail .detail_sub1 h2,
+#results_detail .detail_sub1 p {
+    font-size: var(--font_size_5);
+}
+
+#results_detail .detail_sub1 h2 {
+    width: 1603px;
+    border-bottom: 1px solid var(--color_body);
+    padding-left: 33.5px;
+    margin-left: 171.8px;
+}
+
+
+#results_detail .detail_sub1 p {
+    margin-top: 13px;
+    margin-bottom: 20px;
+    margin-left: 257.3px;
+}
+
+#results_detail .detail_sub2 {
+    padding-bottom: 81px;
+    background-image: url(../images/img/results_detail/common/grit.png);
+    object-fit: cover;
+}
+
+#results_detail .detail_sub2 h1 {
+    font-size: var(--font_size_2);
+    padding-top: 42.5px;
+    padding-bottom: 20px;
+    padding-left: 145.3px;
+}
+
+#results_detail .detail_sub2 .upper_item,
+#results_detail .detail_sub2 .lower_item {
+    display: flex;
+}
+
+#results_detail .detail_sub2 .upper_item img,
+#results_detail .detail_sub2 .lower_item img {
+    width: 250px;
+    height: 250px;
+}
+
+/* --上側-- */
+
+#results_detail .detail_sub2 .upper_item {
+    padding-left: 196px;
+}
+
+#results_detail .detail_sub2 .upper_item .comment {
+    margin-left: 21.3px;
+}
+
+#results_detail .detail_sub2 .upper_item .comment .speech_bubble {
+    width: 1215.73px;
+    height: 259.48px;
+    text-align: center;
+    background-image: url(../images/img/results_detail/common/speech_bubble_left.png);
+}
+
+#results_detail .detail_sub2 .upper_item .comment p {
+    font-size: var(--font_size_5);
+    margin-bottom: 78.5px;
+    margin-left: 33.7px;
+}
+
+#results_detail .detail_sub2 .upper_item .comment .speech_bubble p {
+    font-size: var(--font_size_5);
+    padding-top: 52px;
+    margin-bottom: 0px;
+    margin-left: 126px;
+}
+
+/* --下側-- */
+
+#results_detail .detail_sub2 .lower_item {
+    padding-top: 48px;
+    padding-left: 196px;
+}
+
+#results_detail .detail_sub2 .lower_item .comment {
+    margin-right: 21.3px;
+}
+
+#results_detail .detail_sub2 .lower_item .comment .speech_bubble {
+    width: 1215.73px;
+    height: 259.48px;
+    text-align: center;
+    background-image: url(../images/img/results_detail/common/speech_bubble_right.png);
+}
+
+#results_detail .detail_sub2 .lower_item .comment p {
+    font-size: var(--font_size_5);
+    padding-top: 34px;
+    margin-bottom: 78.5px;
+    margin-left: 981px;
+}
+
+#results_detail .detail_sub2 .lower_item .comment .speech_bubble p {
+    font-size: var(--font_size_5);
+    padding-top: 52px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 126px;
+}
+
+/* お問い合わせ */
+#results_detail .inquiry {
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 178px;
+}
+
+#results_detail .inquiry h1 {
+    padding-bottom: 36px;
+}
+
+#results_detail .inquiry .container {
+    display: flex;
+    margin-left: 219.5px;
+    margin-right: 219.5px;
+}
+
+#results_detail .inquiry .container .form_link,
+#results_detail .inquiry .container .information {
+    width: 741px;
+    height: 367px;
+    border: 1px solid var(--color_body);
+}
+
+#results_detail .inquiry .container .form_link .title {
+    font-size: var(--font_size_5);
+    padding-top: 98px;
+    padding-bottom: 5px;
+}
+
+#results_detail .inquiry .container .form_link .item {
+    display: flex;
+    padding-left: 132px;
+}
+
+#results_detail .inquiry .container .form_link .item p {
+    padding-top: 22px;
+}
+
+#results_detail .inquiry .container .form_link .item .mail_icon {
+    color: var(--color_title);
+    font-size: 75px;
+    padding-right: 12px;
+}
+
+#results_detail .inquiry .container .form_link a {
+    display: inline-block;
+    color: var(--color_bg);
+    background-color: var(--color_title);
+    font-size: var(--font_size_4);
+    padding: 29.5px 74.5px;
+    border: 1px solid var(--color_title);
+
+}
+
+#results_detail .inquiry .container .form_link a:hover {
+    color: var(--color_title);
+    background-color: var(--color_bg);
+}
+
+#results_detail .inquiry .container .information {
+    text-align: left;
+    padding-top: 45px;
+    padding-left: 100px;
+}
+
+#results_detail .inquiry .container .information p:nth-child(1),
+#results_detail .inquiry .container .information p:nth-child(3) {
+    font-size: var(--font_size_5);
+}
+
+#results_detail .inquiry .container .information p:nth-child(3) {
+    padding-top: 9px;
+}
+
+#results_detail .inquiry .container .information p:nth-child(4),
+#results_detail .inquiry .container .information a {
+    font-size: var(--font_size_3);
+    padding-left: 57px;
+}
+
+#results_detail .inquiry .container .information p:nth-child(5) {
+    font-size: 20px;
+}
