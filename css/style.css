@@ -70,6 +70,14 @@ body{
 }
 /* indexのみ end */
 
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
 #header .header_upper_side {
     height: 109px;
     display: flex;
@@ -186,8 +194,18 @@ body{
 /* indexのみ */
 #index .header_images {
     width: 100%;
+    padding-top: 191px;
 }
 /* indexのみ end */
+
+/* header 背景色の変化 */
+/* スクロールして「scroll-navクラス」がついたときのヘッダーデザイン */
+#header.scroll-nav {
+    /* 背景を白にする */
+    background: var(--color_bg);
+    /* コンテンツの背景が白でもナビゲーションだと分かりやすいように影をつける */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
 
 /* --footer-- */
 #footer {
