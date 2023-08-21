@@ -34,12 +34,12 @@ div{
 #service_last{
     margin-bottom: 5rem;
 }
-/* .contel_box{
+.contel_box{
     border: 1px solid #000;
     width: 40rem;
     margin-left: 13rem;
 }
-#tel_box{
+#tel_box2{
     float: left;
     margin-right: 10rem;
 }
@@ -64,7 +64,7 @@ div{
     font-size: 1.3rem;
     color: #707070;
     margin-bottom: 1%;
-} */
+}
 
 .con_title{
     text-align: center;
