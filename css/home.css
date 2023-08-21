@@ -27,10 +27,7 @@
 
 }
 
-/* #index {
-    background-color: aliceblue;
-} */
-
+/* ---ホームCSS--- */
 #index .main h1 {
     color: var(--color_title);
 }
@@ -506,3 +503,7 @@
 }
 /* ホーム　お問い合わせend */
 
+@media screen and (max-width: 480px) { /*ウィンドウ幅が最大までの場合に適用*/
+
+
+}
