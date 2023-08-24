@@ -38,9 +38,9 @@ div{
     border: 1px solid #000;
     width: 40rem;
     margin-left: 13rem;
+    display: flex;
 }
 #tel_box2{
-    float: left;
     margin-right: 10rem;
 }
 #tel_txt2{
