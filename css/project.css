@@ -70,6 +70,7 @@
     margin-bottom: 0.3vh;
     margin-left: 2.6vw;
     margin-right: 2.6vw;
+    object-fit: contain;
 }
 
 #project .achievements .container .item p:nth-child(2),
@@ -113,10 +114,16 @@
 
 #project .construction_example div img {
     border: 1px solid var(--color_body);
+    object-fit: contain;
 }
 
 #project .construction_example .upper_side {
     padding-bottom: 3.7vh;
+}
+
+#project .construction_example .upper_side img {
+    width: 25.8vw;
+    object-fit: contain;
 }
 
 #project .construction_example .upper_side .left {
@@ -130,6 +137,11 @@
 
 #project .construction_example .upper_side .right {
     margin-right: 1.8vw;
+}
+
+#project .construction_example .lower_side img {
+    width: 40.3vw;
+    object-fit: contain;
 }
 
 #project .construction_example .lower_side .left {
