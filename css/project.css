@@ -30,11 +30,11 @@
 }
 
 /* --------- */
-html {
+/* html {
     font-size: 25px;
     font-family: 'Sawarabi Gothic', sans-serif;
-}
-h1{
+} */
+/* h1{
     font-size: 2.8rem;
 }
 h2{
@@ -54,56 +54,56 @@ p{
 }
 body{
     color: #707070;
-}
+} */
 
 /* --共通部分ここまで-- */
 
 /* --会社概要-- */
 #project {
-    margin-bottom: 155px;
+    margin-bottom: 14.3vh;
 }
 #project .achievements {
     margin-top: 18px;
-    margin-bottom: 116.5px;
+    margin-bottom: 1.6vh;
 }
 
 /* 実績 */
 #project .achievements h1 {
     text-align: center;
-    padding-bottom: 44px;
+    padding-bottom: 4vh;
 }
 
 #project .achievements .container {
     display: flex;
     justify-content: center;
-    margin-bottom: 17px;
+    margin-bottom: 1.5vh;
     /* padding-left: 93px; */
 }
 
 #project .achievements .container .item {
-    width: 538px;
-    height: 641px;
+    width: 28vw;
+    height: 59.3vh;
     border: 1px solid var(--color_body);
 }
 
 #project .achievements .container .item:nth-child(2) {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 3.125vw;
+    margin-right: 3.125vw;
 }
 
 #project .achievements .container .item img {
-    width: 435px;
-    height: 320px;
-    margin-top: 55px;
-    margin-bottom: 4px;
-    margin-left: 51.5px;
-    margin-right: 51.5px;
+    width: 22.6vw;
+    height: 29.6vh;
+    margin-top: 5vh;
+    margin-bottom: 0.3vh;
+    margin-left: 2.6vw;
+    margin-right: 2.6vw;
 }
 
 #project .achievements .container .item p:nth-child(2),
 #project .achievements .container .item p:nth-child(3),
 #project .achievements .container .item p:nth-child(4) {
-    padding-left: 51px;
+    padding-left: 2.6vw;
 }
 
 #project .achievements .container .item p:nth-child(2),
@@ -112,26 +112,26 @@ body{
 }
 
 #project .achievements .container .item p:nth-child(4) {
-    font-size: 30px;
+    font-size: 1.2rem;
     /* font-family: "Segoe UI"; */
-    padding-top: 12px;
+    padding-top: 1.1vh;
 }
 
 #project .achievements .container .item a {
-    font-size: 64px;
+    font-size: 2.56rem;
     /* font-family: "Segoe UI"; */
-    padding-bottom: 16px;
-    padding-left: 421px;
+    padding-bottom: 1.4vh;
+    padding-left: 21.9vw;
 }
 
 /* 施工例 */
 #project .construction_example {
     text-align: center;
-    margin-bottom: 71px;
+    margin-bottom: 6.5vh;
 }
 
 #project .construction_example h1 {
-    padding-bottom: 71px;
+    padding-bottom: 6.5vh;
 }
 
 #project .construction_example div {
@@ -144,30 +144,30 @@ body{
 }
 
 #project .construction_example .upper_side {
-    padding-bottom: 40px;
+    padding-bottom: 3.7vh;
 }
 
 #project .construction_example .upper_side .left {
-    margin-left: 35px;
+    margin-left: 1.8vw;
 }
 
 #project .construction_example .upper_side .center {
-    margin-left: 73px;
-    margin-right: 73px;
+    margin-left: 3.8vw;
+    margin-right: 3.8vw;
 }
 
 #project .construction_example .upper_side .right {
-    margin-right: 35px;
+    margin-right: 1.8vw;
 }
 
 #project .construction_example .lower_side .left {
-    margin-left: 42px;
-    margin-right: 36px;
+    margin-left: 2.1vw;
+    margin-right: 1.875vw;
 }
 
 #project .construction_example .lower_side .right {
-    margin-left: 36px;
-    margin-right: 42px;
+    margin-left: 1.875vw;
+    margin-right: 2.1vw;
 }
 
 /* ボタン */
@@ -177,54 +177,54 @@ body{
 
 #project .construction_example .button a {
     display: inline-block;
-    padding: 25.5px 177.5px;
-    margin-top: 47px;
+    padding: 2.3vh 9.2vw;
+    margin-top: 4.3vh;
     border: 1px solid var(--color_body);
-    font-size: 30px;
+    font-size: 1.2rem;
 }
 
 /* お問い合わせ */
 #project .contact {
     text-align: center;
-    padding-bottom: 178px;
+    padding-bottom: 16.4vh;
 }
 
 #project .contact h1 {
-    padding-bottom: 36px;
+    padding-bottom: 3.3vh;
 }
 
 #project .contact .container {
     display: flex;
-    margin-left: 219.5px;
-    margin-right: 219.5px;
+    margin-left: 11.4vw;
+    margin-right: 11.4vw;
 }
 
 #project .contact .container .form_link,
 #project .contact .container .information {
-    width: 741px;
-    height: 367px;
+    width: 38.5vw;
+    height: 33.9vh;
     border: 1px solid var(--color_body);
 }
 
 #project .contact .container .form_link .title {
     font-size: var(--font_size_5);
-    padding-top: 98px;
-    padding-bottom: 5px;
+    padding-top: 9vh;
+    padding-bottom: 0.4vh;
 }
 
 #project .contact .container .form_link .item {
     display: flex;
-    padding-left: 132px;
+    padding-left: 6.875vw;
 }
 
 #project .contact .container .form_link .item p {
-    padding-top: 22px;
+    padding-top: 2vh;
 }
 
 #project .contact .container .form_link .item .mail_icon {
     color: var(--color_title);
-    font-size: 75px;
-    padding-right: 12px;
+    font-size: 3rem;
+    padding-right: 0.625vw;
 }
 
 
@@ -233,9 +233,8 @@ body{
     color: var(--color_bg);
     background-color: var(--color_title);
     font-size: var(--font_size_4);
-    padding: 29.5px 74.5px;
+    padding: 2.7vh 3.8vw;
     border: 1px solid var(--color_title);
-
 }
 
 #project .contact .container .form_link a:hover {
@@ -245,8 +244,8 @@ body{
 
 #project .contact .container .information {
     text-align: left;
-    padding-top: 45px;
-    padding-left: 100px;
+    padding-top: 4.1vh;
+    padding-left: 5.2vw;
 }
 
 #project .contact .container .information p:nth-child(1),
@@ -255,16 +254,16 @@ body{
 }
 
 #project .contact .container .information p:nth-child(3) {
-    padding-top: 9px;
+    padding-top: 0.8vh;
 }
 
 #project .contact .container .information p:nth-child(4),
 #project .contact .container .information a {
     font-size: var(--font_size_3);
-    padding-left: 57px;
+    padding-left: 2.9vw;
 }
 
 #project .contact .container .information p:nth-child(5) {
-    font-size: 20px;
+    font-size: 0.8rem;
 }
 /* --会社概要end-- */
