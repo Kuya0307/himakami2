@@ -1,0 +1,49 @@
+@charset "utf-8";
+h1{
+    text-align: center;
+}
+
+#div-link{
+    display: flex;
+    justify-content: center;
+}
+
+#pegelink{
+    display: flex;
+    list-style: none;
+}
+
+.link{
+    display: block;
+    width: 250px;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+#pulldown{
+    margin-left: 90%;
+    padding: 10px;
+}
+
+img{
+    width: 340px;
+    height: 190px;
+}
+
+.newsbox{
+    display: flex;
+    background-color: aliceblue;
+    margin: 20px;
+}
+
+.newsbox div{
+    margin: 20px;
+}
+
+a{
+    color:inherit;
+    text-decoration:none;
+}

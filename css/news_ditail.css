@@ -1,0 +1,98 @@
+@charset "utf-8";
+#category{
+    margin-left: 10%;
+}
+#title{
+    text-align: center;
+}
+#date{
+    margin-left: 80%;
+}
+#article{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#page-transition{
+    text-align: center;
+}
+.transition{
+    color: #013B58;
+    border: 3px solid #013B58;
+    padding: 15px;
+}
+.list-transition{
+    color: #ffffff;
+    background-color: #013B58;
+    border: 1px solid #013B58;
+    padding: 15px;
+    margin: 30px;
+}
+#ditail{
+    margin-left: 20%;
+}
+#div-img{
+    text-align: center;
+}
+img{
+    width: 800px;
+    height: auto;
+}
+a{
+    color:inherit;
+    text-decoration:none;
+}
+.con_title{
+    text-align: center;
+}
+#con_tel_box{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    border: #707070 solid 1px;
+    width: 50rem;
+    margin-left: 18%;
+}
+#con_tel_box p{
+    font-size: 80%;
+}
+#con_btn{
+    width: 13rem;
+    height: 4rem;
+    background-color: white;
+    border: #707070 1px solid;
+    font-size: 1.5rem;
+    color: #707070;
+}
+#form_box{
+    border: #707070 solid 1px;
+    background-color: white;
+}
+#tel_box{
+    display: grid;
+    border: #707070 solid 1px;
+    background-color: white;
+}
+.form_txt{
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 25%;
+}
+.form_txt #mail{
+    width: 3rem;
+    height: 3rem;
+}
+.tel_txt{
+    margin-left: 3rem;
+}
+.tel_txt #tel{
+    float: right;
+    font-size: 100%;
+   font-weight: bold;
+   margin-right: 3rem;
+}
+.tel_txt #time{
+    font-size: 100%;
+}
+.tel_txt #ant{
+    font-size: 40%;
+}

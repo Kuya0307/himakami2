@@ -37,17 +37,10 @@
 
 /* --------- */
 html {
-    /* font-size: 25px; */
-    font-size: 1.3vw;
+    font-size: 25px;
+    /* font-size: 1.3vw; */
     font-family: 'Sawarabi Gothic', sans-serif;
 }
-
-@media screen and (max-width: 480px) {
-    html {
-        font-size: 2.5vw;
-    }
-}
-
 h1{
     font-size: 2.8rem;
 }
@@ -76,93 +69,78 @@ body{
 /* --header-- */
 /* indexのみ */
 .index_header {
-    width: 100vw;
-    height: 67.4vh;
+    width: 100%;
+    height: 728px;
     background-image: url(../images/bg/top_upper_background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-
-@media screen and (max-width: 480px) {
-    .index_header {
-        height: 22.6vh;
-    }
-}
 /* indexのみ end */
 
 #header {
-    width: 100vw;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 10;
-    color: var(--color_title);
 }
 
 #header .header_upper_side {
-    height: 10vh;
+    height: 109px;
     display: flex;
 }
 
 #header .logo {
-    padding-top: 1.1vh;
-    padding-bottom: 1vh;
-    padding-left: 1.6vw;
-    padding-right: 0.6vw;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    padding-left: 31px;
+    padding-right: 13px;
 }
 
 #header img {
-    width: 4.4vw;
-    /* height: 86px; */
+    width: 86px;
+    height: 86px;
 }
 
 #header .upper_left {
-    padding-top: 1.7vh;
-    padding-bottom: 1.7vh;
-    padding-left: 1.2vw;
+    padding-top: 19px;
+    padding-bottom:19px;
+    padding-left: 13px;
 }
 
 
 #header .company_name {
     font-family: var(--font_family_HG);
-    font-size: 2.84rem;
+    font-size: 71px;
 
 }
 
 #header .upper_right {
     display: flex;
     margin: 0 0 0 auto;
-    padding-top: 2vh;
-    padding-bottom: 1.9vh;
-    padding-right: 1.3vw;
+    padding-top: 21.9px;
+    padding-bottom: 21.4px;
+    padding-right: 25.6px;
 }
 
 #header .tell {
-    font-size: 1.56rem;
+    font-size: 39px;
     font-weight: bold;
-    padding-top: 0.8vh;
-    padding-right: 1.3vh;
+    padding-top: 9.1px;
+    padding-right: 15px;
 }
 
 #header .inquiry_button {
-    width: 14.7vw;
-    height: 6.1vh;
+    width: 283.44px;
+    height: 66.66px;
     color: var(--color_bg);
     font-size: var(--font_size_5);
     background-color: var(--color_title);
-    padding-top: 0.6vh;
-    padding-bottom: 0.6vh;
-    padding-left: 1.9vw;
-    padding-right: 1.8vw;
-}
-
-#header .inquiry_button:hover {
-    color: var(--color_title);
-    background-color: var(--color_bg);
-    border: 3px solid var(--color_title);
-    padding-left: 1.9vw;
-    padding-right: 0;
+    padding-top: 7.1px;
+    padding-bottom: 7.6px;
+    padding-left: 37px;
+    padding-right: 36.4px;
 }
 
 /* --サブメニュー機能 */
@@ -190,20 +168,20 @@ body{
 }
 /* --サブメニュー機能 END */
 #header .menu {
-    padding-left: 3.3vw;
-    padding-right: 3.3vw;
-    margin-bottom: 0.9vh;
+    padding-left: 63.75px;
+    padding-right: 63.75px;
+    margin-bottom: 10.5px;
 }
 
 #header .main_list {
-    width: 14.8vw;
-    height: 6.4vh;
+    width: 285px;
+    height: 69.5px;
     text-align: center;
     font-size: var(--font_size_5);
-    padding-top: 1.2vh;
-    padding-bottom: 0.3vh;
-    padding-left: 0.4vw;
-    padding-right: 0.4vw;
+    padding-top: 14px;
+    padding-bottom: 3.5px;
+    padding-left: 9.25px;
+    padding-right: 9.25px;
 }
 
 #header .main_list:hover {
@@ -211,36 +189,20 @@ body{
 }
 
 #header .sub_list {
-    width: 14.8vw;
+    width: 285px;
     /* height: 69.5px; */
     text-align: center;
-    font-size: 1.28rem;
-    margin-top: 2.2vh;
-    padding-bottom: 0.3vh;
-    padding-left: 0.4vw;
-    padding-right: 0.4vw;
+    font-size: 32px;
+    margin-top: 24.5px;
+    padding-bottom: 3.5px;
+    padding-left: 9.25px;
+    padding-right: 9.25px;
 }
 
 /* indexのみ */
 #index .header_images {
-    width: 100vw;
-    padding-top: 17.6vh;
-}
-
-#index .header_images img {
-    width: 100vw;
-    height: 49.7vh;
-    object-fit: contain;
-}
-
-@media screen and (max-width: 480px) {
-    #index .header_images {
-        padding-top: 5.3vh;
-    }
-    
-    #index .header_images img {
-        height: 17.2vh;
-    }
+    width: 100%;
+    padding-top: 191px;
 }
 /* indexのみ end */
 
@@ -253,33 +215,15 @@ body{
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-/* 拝啓画像 */
-.main {
-    background-image: url(../images/bg/background.png);
-    background-repeat: round;
-    object-fit: cover;
-    /* width: 100vw; */
-    z-index: -10;
-}
-
 /* --footer-- */
 #footer {
     color: var(--color_title);
-    padding-top: 16.4vh;
-    padding-left: 3vw;    
-    background-image: url(../images/bg/423371.jpg);
-    z-index: 1;
-    /* width: 100vw; */
-    background-size: 100vw 58vh;
-    /* height: 449px; */
-    background-repeat: no-repeat;
-    object-fit: contain;
-    object-position: bottom;
+    padding-left: 58px;
 }
 
 #footer .container {
     display: flex;
-    padding-bottom: 6.6vh;
+    padding-bottom: 72px;
 }
 
 #footer .container .information {
@@ -287,9 +231,9 @@ body{
 }
 
 #footer .logo {
-    width: 4.4vw;
-    /* height: 86px; */
-    margin-top: 1.2vh;
+    width: 86px;
+    height: 86px;
+    margin-top: 14px;
 }
 
 #footer .container .information .item p:nth-child(1),
@@ -298,78 +242,78 @@ body{
 }
 
 #footer .container .information .item p:nth-child(1) {
-    font-size: 1.16rem;
+    font-size: 29px;
 }
 
 #footer .container .information .item p:nth-child(2) {
-    font-size: 2.84rem;
-    padding-bottom: 0.8vh;
+    font-size: 71px;
+    padding-bottom: 9.1px;
 }
 
 #footer .container .information .item a {
-    font-size: 1.56rem;
+    font-size: 39px;
     font-weight: bold;
 }
 
 #footer .container .information .item p:nth-child(3),
 #footer .container .information .item p:nth-child(5) {
-    font-size: 1.2rem;
+    font-size: 30px;
 }
 
 #footer .container .information .item .sns_icon {
     display: flex;
-    padding-left: 0.3vw;
+    padding-left: 7px;
 }
 
 #footer .container .information .item .sns_icon img {
-    width: 3vw;
-    /* height: 59px; */
+    width: 59px;
+    height: 59px;
 }
 
 #footer .container .information .item .sns_icon img:nth-child(2) {
-    margin-left: 1.875vw;
-    margin-right: 1.875vw;
+    margin-left: 36px;
+    margin-right: 36px;
 }
 
 #footer .container .sitemap_1 {
-    padding-top: 6.3vh;
-    padding-left: 4.375vw;
+    padding-top: 69px;
+    padding-left: 84px;
 }
 
 #footer .container .sitemap_1 li:nth-child(4),
 #footer .container .sitemap_1 li:nth-child(5) {
-    padding-left: 1.3vw;
+    padding-left: 26px;
 }
 
 #footer .container .sitemap_2 {
-    padding-top: 6.3vh;
-    padding-left: 2.6vw;
-    padding-right: 4.8vw;
+    padding-top: 69px;
+    padding-left: 50px;
+    padding-right: 94px;
 }
 
 #footer .container .sitemap_2 li:nth-child(3) {
-    padding-left: 1.3vw;
+    padding-left: 25px;
 }
 
 #footer .container .company_icon {
-    padding-top: 9.5vh;
+    padding-top: 103px;
 }
 
 #footer .container .company_icon img {
-    width: 20.7vw;
-    /* height: 127px; */
+    width: 398px;
+    height: 127px;
     border: 1px solid var(--color_body);
 }
 
 #footer .copy {
     text-align: center;
-    padding-bottom: 2.1vh;
+    padding-bottom: 23px;
 }
 
 /* --パンくずリスト-- */
 #breadcrumb {
-    margin-top: 2.2vh;
-    margin-left: 2vw;
+    margin-top: 24px;
+    margin-left: 39px;
     list-style: none;
 }
 
