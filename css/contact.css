@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+.inquiry{
+    background-color: #FFFFFF;
+    text-align: center
+}
+
+.inquiry_info{
+    background-color: aliceblue;
+    margin: 3rem 10rem;
+    padding: 1rem;
+    border: 1px solid #000;
+}
+
+#question{
+    font-size: 1.6em;
+    color: #FFFFFF;
+    background-color: #013B58;
+    padding: 20px 50px;
+}
+
+#cofirm_botton{
+    font-size: 1.6em;
+    background-color: #FEEAB3;
+    width: 200px;
+    height:70px;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+
+#contact-form{
+    margin: 5% 20%;
+}
+form{
+    border: 1px solid #000;
+}
+  
+form dl dt{
+    width: 250px;
+    float:left;
+    clear:both;
+}
+
+dt{
+    font-size: 1.6em;
+    margin-left: 20%;
+}
+
+form dl dd{
+    padding:10px 0;
+    justify-content: center;
+}
+
+input{
+    width: 40%;
+    height: 20px;
+}
+
+textarea{
+    width: 40%;
+    height: 200px;
+}
+
+a{
+    color:inherit;
+    text-decoration:none;
+}
+
+.con_title{
+    text-align: center;
+}
+#con_tel_box{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    border: #707070 solid 1px;
+    width: 50rem;
+    margin-left: 23%;
+}
+#con_tel_box p{
+    font-size: 80%;
+}
+#con_btn{
+    width: 13rem;
+    height: 4rem;
+    background-color: white;
+    border: #707070 1px solid;
+    font-size: 1.5rem;
+    color: #707070;
+}
+#form_box{
+    border: #707070 solid 1px;
+    background-color: white;
+}
+#tel_box{
+    display: grid;
+    border: #707070 solid 1px;
+    background-color: white;
+}
+.form_txt{
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 25%;
+}
+.form_txt #mail{
+    width: 3rem;
+    height: 3rem;
+}
+.tel_txt{
+    margin-left: 3rem;
+}
+.tel_txt #tel{
+    float: right;
+    font-size: 100%;
+   font-weight: bold;
+   margin-right: 3rem;
+}
+.tel_txt #time{
+    font-size: 100%;
+}
+.tel_txt #ant{
+    font-size: 40%;
+}

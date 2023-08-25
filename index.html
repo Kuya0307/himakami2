@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/destyle.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/home.css">
+    
     <title>ホーム</title>
 </head>
 <body id="index">
@@ -256,15 +257,8 @@
         </div>
         <div class="copy"><p>©himekamisetubikougyou</p></div>
     </footer>
-    
-    <script>
-        <!-- すくろーるしたらヘッダー背景色をつける -->
-        window.addEventListener("scroll", function () {
-            // ヘッダーを変数の中に格納する
-            const header = document.querySelector("header");
-            // 728px以上スクロールしたらヘッダーに「scroll-nav」クラスをつける
-            header.classList.toggle("scroll-nav", window.scrollY > 728);
-        });
-    </script>
+
+    <script src="./js/header.js"></script>
+
 </body>
 </html>
