@@ -120,3 +120,7 @@ div{
 .tel_txt #ant{
     font-size: 40%;
 }
+a{
+    color:inherit;
+    text-decoration:none;
+}
