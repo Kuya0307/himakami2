@@ -50,8 +50,11 @@ div{
     border: #000000 solid 1px;
     width: 24%;
     background-color: white;
+    margin-left: 4rem;
+    margin-right: 3rem;
+    margin-bottom: 5rem;
 }
-#about #emp_box1{
+/* #about #emp_box1{
     margin: 0 0 2rem 2rem;
 }
 #about #emp_box2{
@@ -59,7 +62,7 @@ div{
 }
 #about #emp_box3{
     margin: 0 3% 3% 0;
-}
+} */
 #about .enp_box p{
     text-align: center;
 }
@@ -112,7 +115,6 @@ div{
     margin-left: 3rem;
 }
 .tel_txt #tel{
-    float: right;
     font-size: 100%;
    font-weight: bold;
    margin-right: 3rem;
