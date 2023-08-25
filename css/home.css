@@ -65,6 +65,7 @@
     width: 41.6vw;
     margin-top: 1.2vh;
     margin-bottom: 11.4vh;
+    word-wrap: break-word;
 }
 
 /* ボタン */
@@ -155,6 +156,90 @@
     z-index: -2;
 }
 
+@media screen and (max-width: 480px) {
+    #index .main {
+        margin-top: 1.7vh;
+    }
+    
+    #index .company_profile {
+        display: initial;
+        position: initial;
+        padding-bottom: 8.2vh;
+        /* ue 
+        kakuninn
+         */
+    }
+
+    #index .company_profile h1 {
+        font-size: 2.5rem;
+    }
+    
+    #index .company_profile h1,
+    #index .company_profile p {
+        margin-left: 7.9vw;
+    }
+    
+    #index .company_profile .chachikopi {
+        font-size: 1.7rem;
+    }
+    
+    #index .company_profile div .introduction {
+        height: 18.3vh;
+        width: 82vw;
+        word-wrap: break-word;
+        margin-top: 0;
+        margin-bottom: 0.7vh;
+        margin-left: 10vw;
+    }
+    
+    /* ボタン */
+    #index .btnlinestretches:not(){}
+
+    #index .btnlinestretches {
+        color: var(--color_body);
+        background-color: var(--color_bg);
+        border: 1px solid var(--color_title);
+        padding: 0.5vh 6.4vw; 
+        display: inline-block;
+        margin-bottom: 1.3vh;
+        margin-left: 8.9vw;
+    }
+    /* --ボタンend-- */
+
+    #index .company_profile .picture {
+        position: relative;
+        width: 82.5vw;
+        height: 24.8vh;
+        margin-left: 8.7vw;
+    }
+    
+    #index .company_profile .picture .img1 {
+        position: absolute;
+        width: 61vw;
+        height: 19.9vh;
+        top: 0;
+        left: 21.5vw;
+        object-fit: cover;
+    }
+    
+    #index .company_profile .picture .img2 {
+        position: absolute;
+        width: 33.3vw;
+        height: 13.7vh;
+        top: 11.1vh;
+        left: 0;
+        object-fit: cover;
+    }
+    
+    #index .company_profile .picture .box {
+        position: absolute;
+        width: 53.3vw;
+        height: 18.4vh;
+        top: 4.6vh;
+        left: 11.2vw;
+    }
+}
+
 /* --ホーム　会社概要 end-- */
 
 /* ホーム　事業内容 */
@@ -224,8 +309,8 @@
     border: 1px solid var(--color_body);
     font-size: 1.2rem;
 }
-/* ボタンend */
 
+/* ボタンend */
 #index .actual_introduction .flex {
     display: flex;
     text-align: center;
@@ -257,6 +342,129 @@
     margin-left: 1.17vw;
     margin-right: 4.4vw;
 }
+
+
+@media screen and (max-width: 480px) {
+    /* ホーム　事業内容 */
+    #index .business_content {
+        padding: 2.6vh;
+        padding-left: 7.9vw;
+        padding-bottom: 4.3vh;
+    }
+
+    #index .business_content h1 {
+        font-size: 2.5rem;
+    }
+
+    #index .business_content h2 {
+        padding-bottom: initial;
+    }
+
+    #index .business_content .construction_example h2 {
+        font-size: 2.1rem;
+    }
+
+    #index .business_content .construction_example .upper_side {
+        padding-bottom: initial;
+        display: block;
+        margin-left: 2.5vw;
+    }
+
+    #index .business_content .construction_example .upper_side img {
+        width: 79.2vw;
+        height: 17.4vh;
+        object-fit: cover;
+        margin-bottom: 3vh;
+    }
+
+    #index .business_content .construction_example .upper_side .left {
+        margin-left: 0;
+    }
+
+    #index .business_content .construction_example .upper_side .center {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #index .business_content .construction_example .upper_side .right {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #index .business_content .construction_example .lower_side {
+        padding-bottom: initial;
+        display: block;
+        margin-left: 2.3vw;
+    }
+
+    #index .business_content .construction_example .lower_side img {
+        width: 79.7vw;
+        height: 11.8vh;
+        object-fit: cover;
+    }
+
+    #index .business_content .construction_example .lower_side .left {
+        margin-bottom: 3vh;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #index .business_content .construction_example .lower_side .right {
+        margin-bottom: 2.4vh;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* 事業内容　ボタン */
+    #index .business_content .button {
+        padding-right: 0;
+    }
+
+    #index .business_content .button a {
+        padding: 1.2vh 19.4vw;
+        margin-top: 2.4vh;
+        margin-bottom: 2.7vh;
+        border: 1px solid var(--color_body);
+        font-size: 1.2rem;
+    }
+    /* ボタンend */
+
+    #index .actual_introduction .flex {
+        display: initial;
+        text-align: center;
+        padding-bottom: 3.6vh;
+    }
+    
+    #index .actual_introduction .flex img {
+        width: 18.2vw;
+        height: 37.2vh;
+        object-fit: contain;
+    }
+    
+    #index .actual_introduction .flex p {
+        font-size: var(--font_size_5);
+    }
+    
+    #index .actual_introduction .flex .left1 {
+        margin-left: 4.4vw;
+        margin-right: 1.17vw;
+    }
+    
+    #index .actual_introduction .flex .left2,
+    #index .actual_introduction .flex .right1 {
+        margin-left: 1.17vw;
+        margin-right: 1.17vw;
+    }
+    
+    #index .actual_introduction .flex .right2 {
+        margin-left: 1.17vw;
+        margin-right: 4.4vw;
+    }
+}
+
+
+
+
 
 /* ホーム　採用情報 */
 #index .recruitment_info {

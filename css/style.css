@@ -41,6 +41,13 @@ html {
     font-size: 1.3vw;
     font-family: 'Sawarabi Gothic', sans-serif;
 }
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 2.5vw;
+    }
+}
+
 h1{
     font-size: 2.8rem;
 }
@@ -75,6 +82,12 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+@media screen and (max-width: 480px) {
+    .index_header {
+        height: 22.6vh;
+    }
 }
 /* indexのみ end */
 
@@ -217,6 +230,16 @@ body{
     width: 100vw;
     height: 49.7vh;
     object-fit: contain;
+}
+
+@media screen and (max-width: 480px) {
+    #index .header_images {
+        padding-top: 5.3vh;
+    }
+    
+    #index .header_images img {
+        height: 17.2vh;
+    }
 }
 /* indexのみ end */
 
