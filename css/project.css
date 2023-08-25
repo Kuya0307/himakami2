@@ -33,7 +33,8 @@
 /* --会社概要-- */
 #project {
     margin-bottom: 14.3vh;
-    margin-top: 8.7vh;
+    /* margin-top: 8.7vh; */
+    margin-top: 10vh;
 }
 #project .achievements {
     margin-top: 18px;
