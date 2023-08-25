@@ -1,6 +1,53 @@
 @charset "utf-8";
 /* CSS Document */
 /* 共通部分 */
+/* ---変数--- */
+:root {
+    --color_title: #013B58;
+    --color_bg: #FFFFFF;
+    --color_blue_light1: #B8E8F9;
+    --color_blue_light2: #EAF8FD;
+    --color_drop: #4CBDE9;
+    --color_button: #FEEAB3;
+    --color_purple: #D8D3FA;
+    --color_logo: #008409;
+    --color_body: #707070;
+    /* 70 */
+    --font_size_1: 2.8rem;
+    /* 60 */
+    --font_size_2: 2.4rem;
+    /* 50 */
+    --font_size_3: 2rem;
+    /* 40 */
+    --font_size_4: 1.6rem;
+    /* 35 */
+    --font_size_5: 1.4rem;
+    /* 25 */
+    --font_size_p: 1rem;
+
+    --font_family_HG: " ", serif;
+
+    --breakPoint_xs: 320;
+    --breakPoint_s: 480;
+    --breakPoint_m: 768; 
+    --breakPoint_l: 1024px; 
+
+
+}
+
+/* --------- */
+html {
+    /* font-size: 25px; */
+    font-size: 1.3vw;
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 2.5vw;
+    }
+}
+
 h1{
     font-size: 2.8rem;
 }
@@ -22,4 +69,325 @@ p{
 body{
     color: #707070;
 }
+
+
 /* --共通部分ここまで-- */
+
+/* --header-- */
+/* indexのみ */
+.index_header {
+    width: 100vw;
+    height: 67.4vh;
+    background-image: url(../images/bg/top_upper_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 480px) {
+    .index_header {
+        height: 22.6vh;
+    }
+}
+/* indexのみ end */
+
+#header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+}
+
+#header .header_upper_side {
+    height: 10vh;
+    display: flex;
+}
+
+#header .logo {
+    padding-top: 1.1vh;
+    padding-bottom: 1vh;
+    padding-left: 1.6vw;
+    padding-right: 0.6vw;
+}
+
+#header img {
+    width: 4.4vw;
+    /* height: 86px; */
+}
+
+#header .upper_left {
+    padding-top: 1.7vh;
+    padding-bottom: 1.7vh;
+    padding-left: 1.2vw;
+}
+
+
+#header .company_name {
+    font-family: var(--font_family_HG);
+    font-size: 2.84rem;
+
+}
+
+#header .upper_right {
+    display: flex;
+    margin: 0 0 0 auto;
+    padding-top: 2vh;
+    padding-bottom: 1.9vh;
+    padding-right: 1.3vw;
+}
+
+#header .tell {
+    font-size: 1.56rem;
+    font-weight: bold;
+    padding-top: 0.8vh;
+    padding-right: 1.3vh;
+}
+
+#header .inquiry_button {
+    width: 14.7vw;
+    height: 6.1vh;
+    color: var(--color_bg);
+    font-size: var(--font_size_5);
+    background-color: var(--color_title);
+    padding-top: 0.6vh;
+    padding-bottom: 0.6vh;
+    padding-left: 1.9vw;
+    padding-right: 1.8vw;
+}
+
+#header .inquiry_button:hover {
+    color: var(--color_title);
+    background-color: var(--color_bg);
+    border: 3px solid var(--color_title);
+    padding-left: 1.9vw;
+    padding-right: 0;
+}
+
+/* --サブメニュー機能 */
+#header .menu {
+	list-style-type: none;
+
+}
+#header .menu > li {
+	display: inline-block;
+	/* border-bottom: 3px solid var(--color_title); */
+	position: relative;
+}
+#header .menu > li > ul {
+	display: none;
+}
+#header .menu > li:hover ul {
+	display: block;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	/* top:1.5em; */
+	/* left:0; */
+	list-style-type: none;
+	/* border:1px solid gray; */
+}
+/* --サブメニュー機能 END */
+#header .menu {
+    padding-left: 3.3vw;
+    padding-right: 3.3vw;
+    margin-bottom: 0.9vh;
+}
+
+#header .main_list {
+    width: 14.8vw;
+    height: 6.4vh;
+    text-align: center;
+    font-size: var(--font_size_5);
+    padding-top: 1.2vh;
+    padding-bottom: 0.3vh;
+    padding-left: 0.4vw;
+    padding-right: 0.4vw;
+}
+
+#header .main_list:hover {
+	border-bottom: 3px solid var(--color_title);
+}
+
+#header .sub_list {
+    width: 14.8vw;
+    /* height: 69.5px; */
+    text-align: center;
+    font-size: 1.28rem;
+    margin-top: 2.2vh;
+    padding-bottom: 0.3vh;
+    padding-left: 0.4vw;
+    padding-right: 0.4vw;
+}
+
+/* indexのみ */
+#index .header_images {
+    width: 100vw;
+    padding-top: 17.6vh;
+}
+
+#index .header_images img {
+    width: 100vw;
+    height: 49.7vh;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 480px) {
+    #index .header_images {
+        padding-top: 5.3vh;
+    }
+    
+    #index .header_images img {
+        height: 17.2vh;
+    }
+}
+/* indexのみ end */
+
+/* header 背景色の変化 */
+/* スクロールして「scroll-navクラス」がついたときのヘッダーデザイン */
+#header.scroll-nav {
+    /* 背景を白にする */
+    background: var(--color_bg);
+    /* コンテンツの背景が白でもナビゲーションだと分かりやすいように影をつける */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* 拝啓画像 */
+.main {
+    background-image: url(../images/bg/background.png);
+    background-repeat: round;
+    object-fit: cover;
+    /* width: 100vw; */
+    z-index: -10;
+}
+
+/* --footer-- */
+#footer {
+    color: var(--color_title);
+    padding-top: 16.4vh;
+    padding-left: 3vw;    
+    background-image: url(../images/bg/423371.jpg);
+    z-index: 1;
+    /* width: 100vw; */
+    background-size: 100vw 58vh;
+    /* height: 449px; */
+    background-repeat: no-repeat;
+    object-fit: contain;
+    object-position: bottom;
+}
+
+#footer .container {
+    display: flex;
+    padding-bottom: 6.6vh;
+}
+
+#footer .container .information {
+    display: flex;
+}
+
+#footer .logo {
+    width: 4.4vw;
+    /* height: 86px; */
+    margin-top: 1.2vh;
+}
+
+#footer .container .information .item p:nth-child(1),
+#footer .container .information .item p:nth-child(2) {
+    font-family: var(--font_family_HG);
+}
+
+#footer .container .information .item p:nth-child(1) {
+    font-size: 1.16rem;
+}
+
+#footer .container .information .item p:nth-child(2) {
+    font-size: 2.84rem;
+    padding-bottom: 0.8vh;
+}
+
+#footer .container .information .item a {
+    font-size: 1.56rem;
+    font-weight: bold;
+}
+
+#footer .container .information .item p:nth-child(3),
+#footer .container .information .item p:nth-child(5) {
+    font-size: 1.2rem;
+}
+
+#footer .container .information .item .sns_icon {
+    display: flex;
+    padding-left: 0.3vw;
+}
+
+#footer .container .information .item .sns_icon img {
+    width: 3vw;
+    /* height: 59px; */
+}
+
+#footer .container .information .item .sns_icon img:nth-child(2) {
+    margin-left: 1.875vw;
+    margin-right: 1.875vw;
+}
+
+#footer .container .sitemap_1 {
+    padding-top: 6.3vh;
+    padding-left: 4.375vw;
+}
+
+#footer .container .sitemap_1 li:nth-child(4),
+#footer .container .sitemap_1 li:nth-child(5) {
+    padding-left: 1.3vw;
+}
+
+#footer .container .sitemap_2 {
+    padding-top: 6.3vh;
+    padding-left: 2.6vw;
+    padding-right: 4.8vw;
+}
+
+#footer .container .sitemap_2 li:nth-child(3) {
+    padding-left: 1.3vw;
+}
+
+#footer .container .company_icon {
+    padding-top: 9.5vh;
+}
+
+#footer .container .company_icon img {
+    width: 20.7vw;
+    /* height: 127px; */
+    border: 1px solid var(--color_body);
+}
+
+#footer .copy {
+    text-align: center;
+    padding-bottom: 2.1vh;
+}
+
+/* --パンくずリスト-- */
+#breadcrumb {
+    margin-top: 2.2vh;
+    margin-left: 2vw;
+    list-style: none;
+}
+
+#breadcrumb li {
+  display: inline;/*横に並ぶように*/
+}
+
+#breadcrumb li:after {
+  /* >を表示*/
+  content: '>';
+  color: var(--color_body);
+}
+
+#breadcrumb li:last-child:after {
+  content: '';
+}
+
+#breadcrumb li a {
+  color: var(--color_body);
+}
+
+/* --パンくずリストend-- */

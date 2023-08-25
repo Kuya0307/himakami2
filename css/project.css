@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+/* 共通部分 */
+/* ---変数--- */
+:root {
+    --color_title: #013B58;
+    --color_bg: #FFFFFF;
+    --color_blue_light1: #B8E8F9;
+    --color_blue_light2: #EAF8FD;
+    --color_drop: #4CBDE9;
+    --color_button: #FEEAB3;
+    --color_purple: #D8D3FA;
+    --color_logo: #008409;
+    --color_body: #707070;
+    /* 70 */
+    --font_size_1: 2.8rem;
+    /* 60 */
+    --font_size_2: 2.4rem;
+    /* 50 */
+    --font_size_3: 2rem;
+    /* 40 */
+    --font_size_4: 1.6rem;
+    /* 35 */
+    --font_size_5: 1.4rem;
+    /* 25 */
+    --font_size_p: 1rem;
+
+    --font_family_HG: " ", serif;
+
+}
+
+/* --------- */
+html {
+    font-size: 25px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+h1{
+    font-size: 2.8rem;
+}
+h2{
+    font-size: 2.4rem;
+}
+h3{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.6rem;
+}
+h5{
+    font-size: 1.4rem;
+}
+p{
+    font-size: 1rem;
+}
+body{
+    color: #707070;
+}
+
+/* --共通部分ここまで-- */
+
+/* --会社概要-- */
+#project {
+    margin-bottom: 155px;
+}
+#project .achievements {
+    margin-top: 18px;
+    margin-bottom: 116.5px;
+}
+
+/* 実績 */
+#project .achievements h1 {
+    text-align: center;
+    padding-bottom: 44px;
+}
+
+#project .achievements .container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 17px;
+    /* padding-left: 93px; */
+}
+
+#project .achievements .container .item {
+    width: 538px;
+    height: 641px;
+    border: 1px solid var(--color_body);
+}
+
+#project .achievements .container .item:nth-child(2) {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#project .achievements .container .item img {
+    width: 435px;
+    height: 320px;
+    margin-top: 55px;
+    margin-bottom: 4px;
+    margin-left: 51.5px;
+    margin-right: 51.5px;
+}
+
+#project .achievements .container .item p:nth-child(2),
+#project .achievements .container .item p:nth-child(3),
+#project .achievements .container .item p:nth-child(4) {
+    padding-left: 51px;
+}
+
+#project .achievements .container .item p:nth-child(2),
+#project .achievements .container .item p:nth-child(3) {
+    font-size: var(--font_size_5);
+}
+
+#project .achievements .container .item p:nth-child(4) {
+    font-size: 30px;
+    /* font-family: "Segoe UI"; */
+    padding-top: 12px;
+}
+
+#project .achievements .container .item a {
+    font-size: 64px;
+    /* font-family: "Segoe UI"; */
+    padding-bottom: 16px;
+    padding-left: 421px;
+}
+
+/* 施工例 */
+#project .construction_example {
+    text-align: center;
+    margin-bottom: 71px;
+}
+
+#project .construction_example h1 {
+    padding-bottom: 71px;
+}
+
+#project .construction_example div {
+    display: flex;
+    justify-content: center;
+}
+
+#project .construction_example div img {
+    border: 1px solid var(--color_body);
+}
+
+#project .construction_example .upper_side {
+    padding-bottom: 40px;
+}
+
+#project .construction_example .upper_side .left {
+    margin-left: 35px;
+}
+
+#project .construction_example .upper_side .center {
+    margin-left: 73px;
+    margin-right: 73px;
+}
+
+#project .construction_example .upper_side .right {
+    margin-right: 35px;
+}
+
+#project .construction_example .lower_side .left {
+    margin-left: 42px;
+    margin-right: 36px;
+}
+
+#project .construction_example .lower_side .right {
+    margin-left: 36px;
+    margin-right: 42px;
+}
+
+/* ボタン */
+#project .construction_example .button {
+    text-align: center;
+}
+
+#project .construction_example .button a {
+    display: inline-block;
+    padding: 25.5px 177.5px;
+    margin-top: 47px;
+    border: 1px solid var(--color_body);
+    font-size: 30px;
+}
+
+/* お問い合わせ */
+#project .contact {
+    text-align: center;
+    padding-bottom: 178px;
+}
+
+#project .contact h1 {
+    padding-bottom: 36px;
+}
+
+#project .contact .container {
+    display: flex;
+    margin-left: 219.5px;
+    margin-right: 219.5px;
+}
+
+#project .contact .container .form_link,
+#project .contact .container .information {
+    width: 741px;
+    height: 367px;
+    border: 1px solid var(--color_body);
+}
+
+#project .contact .container .form_link .title {
+    font-size: var(--font_size_5);
+    padding-top: 98px;
+    padding-bottom: 5px;
+}
+
+#project .contact .container .form_link .item {
+    display: flex;
+    padding-left: 132px;
+}
+
+#project .contact .container .form_link .item p {
+    padding-top: 22px;
+}
+
+#project .contact .container .form_link .item .mail_icon {
+    color: var(--color_title);
+    font-size: 75px;
+    padding-right: 12px;
+}
+
+
+#project .contact .container .form_link a {
+    display: inline-block;
+    color: var(--color_bg);
+    background-color: var(--color_title);
+    font-size: var(--font_size_4);
+    padding: 29.5px 74.5px;
+    border: 1px solid var(--color_title);
+
+}
+
+#project .contact .container .form_link a:hover {
+    color: var(--color_title);
+    background-color: var(--color_bg);
+}
+
+#project .contact .container .information {
+    text-align: left;
+    padding-top: 45px;
+    padding-left: 100px;
+}
+
+#project .contact .container .information p:nth-child(1),
+#project .contact .container .information p:nth-child(3) {
+    font-size: var(--font_size_5);
+}
+
+#project .contact .container .information p:nth-child(3) {
+    padding-top: 9px;
+}
+
+#project .contact .container .information p:nth-child(4),
+#project .contact .container .information a {
+    font-size: var(--font_size_3);
+    padding-left: 57px;
+}
+
+#project .contact .container .information p:nth-child(5) {
+    font-size: 20px;
+}
+/* --会社概要end-- */

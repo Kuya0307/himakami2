@@ -1,0 +1,338 @@
+@charset "utf-8";
+/* CSS Document */
+/* 共通部分 */
+/* ---変数--- */
+:root {
+    --color_title: #013B58;
+    --color_bg: #FFFFFF;
+    --color_blue_light1: #B8E8F9;
+    --color_blue_light2: #EAF8FD;
+    --color_drop: #4CBDE9;
+    --color_button: #FEEAB3;
+    --color_purple: #D8D3FA;
+    --color_logo: #008409;
+    --color_body: #707070;
+    /* 70 */
+    --font_size_1: 2.8rem;
+    /* 60 */
+    --font_size_2: 2.4rem;
+    /* 50 */
+    --font_size_3: 2rem;
+    /* 40 */
+    --font_size_4: 1.6rem;
+    /* 35 */
+    --font_size_5: 1.4rem;
+    /* 25 */
+    --font_size_p: 1rem;
+
+    --font_family_HG: " ", serif;
+
+    --breakPoint_xs: 320;
+    --breakPoint_s: 480;
+    --breakPoint_m: 768; 
+    --breakPoint_l: 1024px; 
+
+
+}
+
+/* --------- */
+html {
+    font-size: 25px;
+    /* font-size: 1.3vw; */
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+h1{
+    font-size: 2.8rem;
+}
+h2{
+    font-size: 2.4rem;
+}
+h3{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.6rem;
+}
+h5{
+    font-size: 1.4rem;
+}
+p{
+    font-size: 1rem;
+}
+body{
+    color: #707070;
+}
+
+
+/* --共通部分ここまで-- */
+
+/* --header-- */
+/* indexのみ */
+.index_header {
+    width: 100%;
+    height: 728px;
+    background-image: url(../images/bg/top_upper_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* indexのみ end */
+
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+#header .header_upper_side {
+    height: 109px;
+    display: flex;
+}
+
+#header .logo {
+    padding-top: 12px;
+    padding-bottom: 11px;
+    padding-left: 31px;
+    padding-right: 13px;
+}
+
+#header img {
+    width: 86px;
+    height: 86px;
+}
+
+#header .upper_left {
+    padding-top: 19px;
+    padding-bottom:19px;
+    padding-left: 13px;
+}
+
+
+#header .company_name {
+    font-family: var(--font_family_HG);
+    font-size: 71px;
+
+}
+
+#header .upper_right {
+    display: flex;
+    margin: 0 0 0 auto;
+    padding-top: 21.9px;
+    padding-bottom: 21.4px;
+    padding-right: 25.6px;
+}
+
+#header .tell {
+    font-size: 39px;
+    font-weight: bold;
+    padding-top: 9.1px;
+    padding-right: 15px;
+}
+
+#header .inquiry_button {
+    width: 283.44px;
+    height: 66.66px;
+    color: var(--color_bg);
+    font-size: var(--font_size_5);
+    background-color: var(--color_title);
+    padding-top: 7.1px;
+    padding-bottom: 7.6px;
+    padding-left: 37px;
+    padding-right: 36.4px;
+}
+
+/* --サブメニュー機能 */
+#header .menu {
+	list-style-type: none;
+
+}
+#header .menu > li {
+	display: inline-block;
+	/* border-bottom: 3px solid var(--color_title); */
+	position: relative;
+}
+#header .menu > li > ul {
+	display: none;
+}
+#header .menu > li:hover ul {
+	display: block;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	/* top:1.5em; */
+	/* left:0; */
+	list-style-type: none;
+	/* border:1px solid gray; */
+}
+/* --サブメニュー機能 END */
+#header .menu {
+    padding-left: 63.75px;
+    padding-right: 63.75px;
+    margin-bottom: 10.5px;
+}
+
+#header .main_list {
+    width: 285px;
+    height: 69.5px;
+    text-align: center;
+    font-size: var(--font_size_5);
+    padding-top: 14px;
+    padding-bottom: 3.5px;
+    padding-left: 9.25px;
+    padding-right: 9.25px;
+}
+
+#header .main_list:hover {
+	border-bottom: 3px solid var(--color_title);
+}
+
+#header .sub_list {
+    width: 285px;
+    /* height: 69.5px; */
+    text-align: center;
+    font-size: 32px;
+    margin-top: 24.5px;
+    padding-bottom: 3.5px;
+    padding-left: 9.25px;
+    padding-right: 9.25px;
+}
+
+/* indexのみ */
+#index .header_images {
+    width: 100%;
+    padding-top: 191px;
+}
+/* indexのみ end */
+
+/* header 背景色の変化 */
+/* スクロールして「scroll-navクラス」がついたときのヘッダーデザイン */
+#header.scroll-nav {
+    /* 背景を白にする */
+    background: var(--color_bg);
+    /* コンテンツの背景が白でもナビゲーションだと分かりやすいように影をつける */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* --footer-- */
+#footer {
+    color: var(--color_title);
+    padding-left: 58px;
+}
+
+#footer .container {
+    display: flex;
+    padding-bottom: 72px;
+}
+
+#footer .container .information {
+    display: flex;
+}
+
+#footer .logo {
+    width: 86px;
+    height: 86px;
+    margin-top: 14px;
+}
+
+#footer .container .information .item p:nth-child(1),
+#footer .container .information .item p:nth-child(2) {
+    font-family: var(--font_family_HG);
+}
+
+#footer .container .information .item p:nth-child(1) {
+    font-size: 29px;
+}
+
+#footer .container .information .item p:nth-child(2) {
+    font-size: 71px;
+    padding-bottom: 9.1px;
+}
+
+#footer .container .information .item a {
+    font-size: 39px;
+    font-weight: bold;
+}
+
+#footer .container .information .item p:nth-child(3),
+#footer .container .information .item p:nth-child(5) {
+    font-size: 30px;
+}
+
+#footer .container .information .item .sns_icon {
+    display: flex;
+    padding-left: 7px;
+}
+
+#footer .container .information .item .sns_icon img {
+    width: 59px;
+    height: 59px;
+}
+
+#footer .container .information .item .sns_icon img:nth-child(2) {
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+#footer .container .sitemap_1 {
+    padding-top: 69px;
+    padding-left: 84px;
+}
+
+#footer .container .sitemap_1 li:nth-child(4),
+#footer .container .sitemap_1 li:nth-child(5) {
+    padding-left: 26px;
+}
+
+#footer .container .sitemap_2 {
+    padding-top: 69px;
+    padding-left: 50px;
+    padding-right: 94px;
+}
+
+#footer .container .sitemap_2 li:nth-child(3) {
+    padding-left: 25px;
+}
+
+#footer .container .company_icon {
+    padding-top: 103px;
+}
+
+#footer .container .company_icon img {
+    width: 398px;
+    height: 127px;
+    border: 1px solid var(--color_body);
+}
+
+#footer .copy {
+    text-align: center;
+    padding-bottom: 23px;
+}
+
+/* --パンくずリスト-- */
+#breadcrumb {
+    margin-top: 24px;
+    margin-left: 39px;
+    list-style: none;
+}
+
+#breadcrumb li {
+  display: inline;/*横に並ぶように*/
+}
+
+#breadcrumb li:after {
+  /* >を表示*/
+  content: '>';
+  color: var(--color_body);
+}
+
+#breadcrumb li:last-child:after {
+  content: '';
+}
+
+#breadcrumb li a {
+  color: var(--color_body);
+}
+
+/* --パンくずリストend-- */
