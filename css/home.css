@@ -503,7 +503,6 @@
     font-size: var(--font_size_5);
     padding-bottom: 5.2vh;
     padding-left: 4.4vw;
-    /* padding-right: 54px; */
 }
 
 #index .recruitment_info .container .item a {
@@ -518,7 +517,6 @@
 #index .recruitment_info .container img {
     position: absolute;
     left: 29.7vw;
-    /* z-index: -1; */
     width: 60.8vw;
     height: 61.3vh;
     object-fit: contain;
@@ -534,15 +532,6 @@
 #index .news h1 {
     padding-bottom: 2.2vh;
 }
-
-/* #index .news table {
-    border-collapse: separate; 
-}
-
-#index .news table tr {
-    border: 1px solid var(--color_body);
-    margin-bottom: 20px;
-} */
 
 #index .news .container {
     padding-bottom: 0.8vh;
